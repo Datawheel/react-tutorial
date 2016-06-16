@@ -1,0 +1,16 @@
+@import "../node_modules/normalize.css/normalize";
+@import "helpers/colors";
+
+// Google Fonts
+$open-sans: "Open Sans", sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,600,700,800);
+
+.container {
+  font-family: $open-sans;
+  font-size: 16px;
+  font-weight: 400;
+
+  @import "components/App";
+  @import "components/Greeting";
+
+}
