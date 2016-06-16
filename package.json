@@ -1,7 +1,7 @@
 {
-  "name": "bamboo",
+  "name": "react-template",
   "version": "1.0.0",
-  "description": "Interactive Companion Website to the 2016 GMCI",
+  "description": "Project template for React based front-end projects.",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Datawheel/bamboo.git"
+    "url": "git+https://github.com/Datawheel/react-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Datawheel/bamboo/issues"
+    "url": "https://github.com/Datawheel/react-template/issues"
   },
-  "homepage": "https://github.com/Datawheel/bamboo#readme",
+  "homepage": "https://github.com/Datawheel/react-template#readme",
   "devDependencies": {
     "autoprefixer": "^6.3.6",
     "babel-core": "^6.6.5",

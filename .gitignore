@@ -1,23 +1,9 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
-
 # Compiled App
 build/public
-build/gmci_bundle.js
+build/bundle.js
 
 # Dependency directory
 node_modules
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
 
 # OSX .DS_STORE
 .DS_STORE
