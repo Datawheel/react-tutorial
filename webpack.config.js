@@ -23,7 +23,7 @@ const common = {
   "module": {
     "loaders": [
       {"test": /\.(png|svg)$/, "loader": "file?name=public/[path][name].[ext]"},
-      {"test": /\.s?css$/, "loader": ExtractTextPlugin.extract("style-loader", "css!sass!postcss")},
+      {"test": /\.s?css$/, "loader": ExtractTextPlugin.extract("style-loader", "css!postcss!sass")},
       {
         "test": /\.jsx?$/,
         "loader": "babel",
