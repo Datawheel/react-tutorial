@@ -1,9 +1,5 @@
-# Compiled App
-build/public
-build/bundle.js
-
-# Dependency directory
+npm-debug.log*
 node_modules
-
-# OSX .DS_STORE
-.DS_STORE
+static/assets
+/index.js
+.env

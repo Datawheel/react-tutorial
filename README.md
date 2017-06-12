@@ -1,29 +1,3 @@
-# react-template
+# react-tutorial
 
-## developing
-Start developing by running the following command while inside the project folder to install all dependencies (only needs to be done once):
-```bash
-gem install scss_lint && npm i
-```
-
-Next, spin up the developer server by running:
-```bash
-npm run dev
-```
-
-And point your browser to:
-```bash
-localhost:8080
-```
-
-## testing
-To test your code, run the following:
-```bash
-npm test
-```
-
-## building
-And finally, to create the final production build, run:
-```bash
-npm run build
-```
+Each numbered folder builds on the previous to showcase the main features of a React project using react-router for page routing and redux for a shared global store. If a folder has a `package.json` file, you will need to install the dependencies (`npm i`) while in that folder.
